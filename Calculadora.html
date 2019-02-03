@@ -31,15 +31,15 @@
       
       
       *{
-        margin: 2;
+        margin: 4;
         padding: 0;
       }
       
       .button{
         
-        width: 50;
-        height: 50;
-        font-size: 25;
+        width: 100;
+        height: 100;
+        font-size: 50;
         margin: 2;
         cursor:  pointer;
         
@@ -48,9 +48,9 @@
       }
       .textview {
         
-        width:  217;
-        margin: 4;
-        font-size: 30;
+        width:  420;
+        margin: 8;
+        font-size: 60;
         padding: 5;
       
       }
@@ -65,7 +65,7 @@
         
       }
       .bg{
-        background: aqua;
+        background: #808080;
         height: 100%;
       }
 
@@ -90,7 +90,7 @@
             <td>
               <input class="button" type ="button" value="/" onclick="insert('/')" >
             <td>
-              <input class="button" type ="button" value="x" onclick="insert('x')" > 
+              <input class="button" type ="button" value="X" onclick="insert('*')" > 
           <tr>
 
             <td>
@@ -122,12 +122,12 @@
             <td>
               <input class="button" type ="button" value="3" onclick="insert(3)" >
             <td rowspan="5">
-              <input class="button" type ="button" style = "height:106" value="=" onclick="equal()" >
+              <input class="button" type ="button" style = "height:206" value="=" onclick="equal()" >
           </tr>
               <tr>
 
                  <td colspan="2">
-                  <input class="button" type ="button" style = "width:106" value="0" onclick="insert(0)" >
+                  <input class="button" type ="button" style = "width:206" value="0" onclick="insert(0)" >
                 <td>
                   <input class="button" type ="button" value="." onclick="insert('.')" >
               </tr>
