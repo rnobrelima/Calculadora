@@ -1,76 +1,8 @@
 <html>
 
   <head>
-    <script>
-      
-      function insert(num){
-        document.form.textview.value = document.form.textview.value+num
-      }
-      
-      function equal(){
-        var num = document.form.textview.value;
-        
-        if(num)
-        document.form.textview.value = eval(num)
-        
-      }
-      
-      function clean(){
-        document.form.textview.value ="";
-      }
-      
-      function back(){
-        
-        var cli = document.form.textview.value;
-        document.form.textview.value = cli.substring(0,cli.length-1);
-      }
-      
-      
-    </script>
-    <style>
-      
-      
-      *{
-        margin: 4;
-        padding: 0;
-      }
-      
-      .button{
-        
-        width: 100;
-        height: 100;
-        font-size: 50;
-        margin: 2;
-        cursor:  pointer;
-        
-        
-        
-      }
-      .textview {
-        
-        width:  420;
-        margin: 8;
-        font-size: 60;
-        padding: 5;
-      
-      }
-      
-      .main {
-        
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        
-        
-      }
-      .bg{
-        background: #808080;
-        height: 100%;
-      }
-
-    </style>
-
+    <link rel="stylesheet" href="Scripts.js">
+    <link rel="stylesheet" href="Style.css">
   </head>
 
   <body>
